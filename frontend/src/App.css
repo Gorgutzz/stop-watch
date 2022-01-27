@@ -1,0 +1,106 @@
+/* CSS STYLES */
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.background{
+  height: 100vh;
+  width: 100vw;
+  opacity: 0.88;
+  z-index: -1;
+  background-repeat: no-repeat;
+  background-size: cover ;
+}
+
+.stopwatch{
+  position: absolute;
+  top: 20%;
+  left: 28%;
+  display: flex;
+}
+
+.watch{
+  align-items: center;
+  justify-content: space-evenly;
+  margin-left: 1rem;
+  width: 10rem;
+  height: 10rem;
+  flex-direction: column;
+  background-color: #FF0000;
+  opacity: 0.4;
+}
+
+.font{
+  position: absolute;
+  top: 10%;
+  left: 47%;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.button{
+  position: absolute;
+  top: 45%;
+  left: 39%;
+}
+
+.single{
+  margin-left: 1rem;
+  background-color: rgb(211, 32, 47);
+  padding: 0.6rem 1.2rem;
+  border-radius: 10%;
+  border: 1px solid black;
+
+}
+
+.single:hover{
+  background-color: rgb(52, 103, 180);
+}
+
+
+.center{
+  margin-left: 4.2rem;
+  font-weight: 1000;
+  font-size: large;
+}
+
+.center-2{
+  margin-left: 3rem;
+  font-weight: 1000;
+  font-size: large;
+}
+
+.center-3{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.digits{
+  margin-left: 3rem;
+  margin-top: 1.7rem;
+  font-weight: 1000;
+  font-size: xxx-large;
+}
+
+.table{
+  width: 80%;
+  margin: auto;
+  margin-top: 3rem;
+}
+th{
+  text-align: center;
+}
+td{
+  text-align: center;
+}
+tbody>tr:nth-child(odd){
+  background-color: #f0f0f0;
+}
+
+.time-list{
+  display: flex;
+}
