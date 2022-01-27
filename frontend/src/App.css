@@ -17,7 +17,7 @@
 .stopwatch{
   position: absolute;
   top: 20%;
-  left: 28%;
+  left: 30%;
   display: flex;
 }
 
@@ -35,7 +35,7 @@
 .font{
   position: absolute;
   top: 10%;
-  left: 47%;
+  left: 44%;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
